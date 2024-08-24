@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <form id="form">
+            <h1>Register</h1>
+            <div class="input_sec">
+                <label for="username">Username:</label>
+                <input type="text" id="username" placeholder="Enter your Name">
+                <div class="error_msg"></div>
+            </div>
+            <div class="input_sec">
+                <label for="email">Email:</label>
+                <input type="text" id="email" placeholder="Enter your Email">
+                <div class="error_msg"></div>
+            </div>
+            <div class="input_sec">
+                <label for="password">Password:</label>
+                <input type="password" id="password" placeholder="Enter your Password">
+                <div class="error_msg"></div>
+            </div>
+            <div class="input_sec">
+                <label for="cpassword">Confirm Password:</label>
+                <input type="password" id="cpassword" placeholder="Confirm Password">
+                <div class="error_msg"></div>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
